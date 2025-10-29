@@ -230,7 +230,7 @@ export default function Page() {
         {/* Header */}
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mb-6">
           <div>
-            <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-base-content">Tutorial: Enkripsi & Dekripsi</h1>
+            <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-base-content">Enkripsi & Dekripsi</h1>
             <p className="text-sm opacity-70 mt-1 text-base-content">Pelajari dasar-dasar keamanan digital dan coba sendiri alatnya.</p>
           </div>
           <button className="btn btn-outline" onClick={toggle} aria-label="Toggle theme" title="Toggle Light/Dark">{theme === "dark" ? "🌞 Light" : "🌙 Dark"}</button>
